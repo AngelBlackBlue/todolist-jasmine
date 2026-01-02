@@ -34,8 +34,10 @@ describe("The ToDoList class", () => {
   it("The removeTask method should remove a task from the array", () => {
     const toDoList = new ToDoList();
     toDoList.addTask("task");
-    toDoList.removeTask("task");
-    expect(toDoList.getTasks()).not.toContain("task");
+    toDoList.addTask("task2");
+    toDoList.removeTask("task2");
+    expect(toDoList.getTasks()).not.toContain("task2");
+  
   });
 
   
