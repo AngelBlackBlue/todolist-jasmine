@@ -12,7 +12,7 @@ Este proyecto implementa una clase `ToDoList` en JavaScript para la gestión de 
 
 ## 🏷️ Etiquetas
 
-`#JavaScript` `#Jasmine` `#Henry` `#TDD` `#Frontend`
+`#JavaScript` `#Jasmine` `#TDD` `#Frontend`
 
 ## 📋 Funcionalidades
 
