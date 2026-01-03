@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ToDo List App</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
-    <h1>Proyecto M1</h1>
+    <main>
+        <h1>Mi Lista de Tareas</h1>
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Escribe una tarea...">
+            <button id="addBtn">Agregar</button>
+        </div>
+        <ul id="taskList">
+            <!-- Tasks will appear here -->
+        </ul>
+    </main>
+    <script src="./scripts/index.js"></script>
 </body>
+
 </html>
